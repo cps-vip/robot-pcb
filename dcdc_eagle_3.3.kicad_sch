@@ -1,0 +1,5624 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "daf99c2a-d0b0-4ae1-945e-12e9bcd50ee1")
+	(paper "User" 543.712 210.007)
+	(lib_symbols
+		(symbol "robot-eagle-import:AcceleratedDesigns_Lib_BAT54WSTRBAT54WSTR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 2 1.7)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 2 1.7)
+					)
+				)
+			)
+			(property "Footprint" "robot:SOD-323"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AcceleratedDesigns_Lib_BAT54WSTRBAT54WSTR_1_0"
+				(polyline
+					(pts
+						(xy -7.62 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.794 2.54) (xy -2.032 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.794 2.032) (xy -2.794 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 2.54) (xy -2.032 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -2.54) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -1.27 -2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -2.54) (xy -2.032 0) (xy 2.032 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 180)
+					(length 2.54)
+					(name "K@2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 0)
+					(length 2.54)
+					(name "A@1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "robot-eagle-import:AcceleratedDesigns_Lib_CSD17571Q2CSD17571Q2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at -3.175 7.62 0)
+				(effects
+					(font
+						(size 2 1.7)
+					)
+				)
+			)
+			(property "Value" ""
+				(at -3.81 5.08 0)
+				(effects
+					(font
+						(size 2 1.7)
+					)
+				)
+			)
+			(property "Footprint" "robot:DQK0006C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AcceleratedDesigns_Lib_CSD17571Q2CSD17571Q2_1_0"
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 2.54) (xy 1.016 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 2.54) (xy 1.016 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -2.032) (xy 3.81 -2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 0) (xy 2.286 -1.016) (xy 2.286 1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.032) (xy 3.556 -2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 7.62) (xy 3.81 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 5.08) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.54) (xy 3.81 2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.54) (xy 3.81 2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.032) (xy 1.016 2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.032) (xy 1.27 2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 3.81 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -7.62) (xy 3.81 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 180)
+					(length 2.54)
+					(name "Gate@5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 7.62 270)
+					(length 2.54)
+					(name "Drain@1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 7.62 270)
+					(length 2.54)
+					(name "Drain@2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 7.62 270)
+					(length 2.54)
+					(name "Drain@3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 7.62 270)
+					(length 2.54)
+					(name "Drain@4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -7.62 90)
+					(length 2.54)
+					(name "Source@6"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "robot-eagle-import:AcceleratedDesigns_Lib_LM25117PMHX/NOPBLM25117PMHX/NOPB"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 2 1.7)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 2 1.7)
+					)
+				)
+			)
+			(property "Footprint" "robot:PWP0020A_N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AcceleratedDesigns_Lib_LM25117PMHX/NOPBLM25117PMHX/NOPB_1_0"
+				(polyline
+					(pts
+						(xy -17.78 35.56) (xy -17.78 -35.56)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -17.78 -35.56) (xy 17.78 -35.56)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.78 35.56) (xy -17.78 35.56)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.78 -35.56) (xy 17.78 35.56)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at -22.86 25.4 180)
+					(length 5.08)
+					(name "VIN@20"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 20.32 180)
+					(length 5.08)
+					(name "UVLO@1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -22.86 15.24 180)
+					(length 5.08)
+					(name "VCCDIS@7"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -22.86 10.16 180)
+					(length 5.08)
+					(name "COMP@9"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 5.08 180)
+					(length 5.08)
+					(name "FB@8"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -22.86 0 180)
+					(length 5.08)
+					(name "CM@10"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 -5.08 180)
+					(length 5.08)
+					(name "RT@5"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 -10.16 180)
+					(length 5.08)
+					(name "RES@3"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 -15.24 180)
+					(length 5.08)
+					(name "SS@4"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -22.86 -20.32 180)
+					(length 5.08)
+					(name "AGND@6"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -22.86 -25.4 180)
+					(length 5.08)
+					(name "PGND@14"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -22.86 -30.48 180)
+					(length 5.08)
+					(name "EP@21"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 25.4 0)
+					(length 5.08)
+					(name "DEMB@2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 22.86 17.78 0)
+					(length 5.08)
+					(name "VCC@16"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 22.86 10.16 0)
+					(length 5.08)
+					(name "HB@19"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 22.86 5.08 0)
+					(length 5.08)
+					(name "HO@18"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 22.86 0 0)
+					(length 5.08)
+					(name "SW@17"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 22.86 -7.62 0)
+					(length 5.08)
+					(name "LO@15"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 22.86 -15.24 0)
+					(length 5.08)
+					(name "CS@12"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 22.86 -20.32 0)
+					(length 5.08)
+					(name "CSG@13"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 22.86 -27.94 0)
+					(length 5.08)
+					(name "RAMP@11"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "robot-eagle-import:AcceleratedDesigns_Lib_WB_GNDWB_GND"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "robot:WB_GND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AcceleratedDesigns_Lib_WB_GNDWB_GND_1_0"
+				(polyline
+					(pts
+						(xy -3.302 0) (xy 3.302 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 -1.016) (xy 2.286 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -2.032) (xy 0.762 -2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "1@1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "robot-eagle-import:C0805C100M4GACTUC0805C100M4GACTU"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 2 1.7)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 2 1.7)
+					)
+				)
+			)
+			(property "Footprint" "robot:0805"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C0805C100M4GACTUC0805C100M4GACTU_1_0"
+				(polyline
+					(pts
+						(xy -7.62 0) (xy -5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -3.048) (xy -0.762 3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -3.048) (xy 0.762 3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 180)
+					(length 2.54)
+					(name "2@2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 0)
+					(length 2.54)
+					(name "1@1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "robot-eagle-import:C0805C104M5RACTUC0805C104M5RACTU"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 2 1.7)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 2 1.7)
+					)
+				)
+			)
+			(property "Footprint" "robot:0805"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C0805C104M5RACTUC0805C104M5RACTU_1_0"
+				(polyline
+					(pts
+						(xy -7.62 0) (xy -5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -3.048) (xy -0.762 3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -3.048) (xy 0.762 3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 180)
+					(length 2.54)
+					(name "2@2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 0)
+					(length 2.54)
+					(name "1@1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "robot-eagle-import:C2012C0G1H153J085AAC2012C0G1H153J085AA"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 2 1.7)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 2 1.7)
+					)
+				)
+			)
+			(property "Footprint" "robot:0805"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C2012C0G1H153J085AAC2012C0G1H153J085AA_1_0"
+				(polyline
+					(pts
+						(xy -7.62 0) (xy -5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -3.048) (xy -0.762 3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -3.048) (xy 0.762 3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 180)
+					(length 2.54)
+					(name "2@2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 0)
+					(length 2.54)
+					(name "1@1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "robot-eagle-import:CL21C222JBFNNNECL21C222JBFNNNE"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 2 1.7)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 2 1.7)
+					)
+				)
+			)
+			(property "Footprint" "robot:0805"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CL21C222JBFNNNECL21C222JBFNNNE_1_0"
+				(polyline
+					(pts
+						(xy -7.62 0) (xy -5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -3.048) (xy -0.762 3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -3.048) (xy 0.762 3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 180)
+					(length 2.54)
+					(name "2@2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 0)
+					(length 2.54)
+					(name "1@1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "robot-eagle-import:CRCW040217K4FKEDCRCW040217K4FKED"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 5.715 0)
+				(effects
+					(font
+						(size 2 1.7)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 2 1.7)
+					)
+				)
+			)
+			(property "Footprint" "robot:0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CRCW040217K4FKEDCRCW040217K4FKED_1_0"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -7.62 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 1.524) (xy -5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.524) (xy -3.81 1.524)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.524) (xy -1.905 -1.524)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -1.524) (xy 0 1.524)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.524) (xy 1.905 -1.524)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 3.81 1.524)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 180)
+					(length 2.54)
+					(name "2@2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 0)
+					(length 2.54)
+					(name "1@1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "robot-eagle-import:MSASU32MSB7475MPNA01MSASU32MSB7475MPNA01"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 2 1.7)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 2 1.7)
+					)
+				)
+			)
+			(property "Footprint" "robot:1210"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MSASU32MSB7475MPNA01MSASU32MSB7475MPNA01_1_0"
+				(polyline
+					(pts
+						(xy -7.62 0) (xy -5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -3.048) (xy -0.762 3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -3.048) (xy 0.762 3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 180)
+					(length 2.54)
+					(name "2@2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 0)
+					(length 2.54)
+					(name "1@1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "robot-eagle-import:RC0201FR-0712K1LRC0201FR-0712K1L"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 5.715 0)
+				(effects
+					(font
+						(size 2 1.7)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 2 1.7)
+					)
+				)
+			)
+			(property "Footprint" "robot:0201"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RC0201FR-0712K1LRC0201FR-0712K1L_1_0"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -7.62 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 1.524) (xy -5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.524) (xy -3.81 1.524)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.524) (xy -1.905 -1.524)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -1.524) (xy 0 1.524)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.524) (xy 1.905 -1.524)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 3.81 1.524)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 180)
+					(length 2.54)
+					(name "2@2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 0)
+					(length 2.54)
+					(name "1@1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "robot-eagle-import:TMK212BJ474KD-TTMK212BJ474KD-T"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 2 1.7)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 2 1.7)
+					)
+				)
+			)
+			(property "Footprint" "robot:0805"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TMK212BJ474KD-TTMK212BJ474KD-T_1_0"
+				(polyline
+					(pts
+						(xy -7.62 0) (xy -5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -3.048) (xy -0.762 3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -3.048) (xy 0.762 3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 180)
+					(length 2.54)
+					(name "2@2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 0)
+					(length 2.54)
+					(name "1@1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "robot-eagle-import:XAL6060-472MEBXAL6060-472MEB"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 5.715 0)
+				(effects
+					(font
+						(size 2 1.7)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 2 1.7)
+					)
+				)
+			)
+			(property "Footprint" "robot:XAL6060"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "XAL6060-472MEBXAL6060-472MEB_1_0"
+				(polyline
+					(pts
+						(xy -7.62 1.3174) (xy -5.08 1.3716)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.722 0.8367)
+					(mid -2.594 0.3363)
+					(end -2.5444 -0.1778)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.182 0.8367)
+					(mid -2.2701 0.1651)
+					(end -4.4366 -0.1778)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.8098 1.8564)
+					(mid -3.0785 1.5453)
+					(end -2.7154 0.8384)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -4.9292 0.8384)
+					(mid -4.5513 1.547)
+					(end -3.81 1.8559)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -4.9976 -0.1804)
+					(mid -5.3182 1.1686)
+					(end -4.9976 2.5175)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.2698 1.8564)
+					(mid -0.5385 1.5453)
+					(end -0.1754 0.8384)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.3892 0.8384)
+					(mid -2.0113 1.547)
+					(end -1.27 1.8559)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.3579 0.8367)
+					(mid 2.4859 0.3363)
+					(end 2.5355 -0.1778)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.5449 -0.1803)
+					(mid -2.8655 1.1686)
+					(end -2.5449 2.5175)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.2701 1.8565)
+					(mid 2.0014 1.5453)
+					(end 2.3645 0.8384)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.1507 0.8384)
+					(mid 0.5286 1.547)
+					(end 1.2699 1.8559)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.8101 1.8565)
+					(mid 4.5414 1.5453)
+					(end 4.9045 0.8384)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.6907 0.8384)
+					(mid 3.0686 1.547)
+					(end 3.8099 1.8559)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 7.3274) (xy 7.62 8.717)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.535 -0.1803)
+					(mid 2.2144 1.1686)
+					(end 2.535 2.5175)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.0711 -6.2481)
+					(mid -5.1881 -2.7021)
+					(end -4.9191 0.8356)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.5311 -6.2482)
+					(mid -2.6481 -2.7022)
+					(end -2.3791 0.8356)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.5488 -6.2479)
+					(mid 2.4318 -2.702)
+					(end 2.7008 0.8356)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 8.8127 -6.248)
+					(mid 4.2938 -2.9419)
+					(end 0.1608 0.8356)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 4.9041 0.8386)
+					(mid 4.9531 4.25)
+					(end 5.0819 7.6593)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 180)
+					(length 2.54)
+					(name "1@1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 0)
+					(length 2.54)
+					(name "2@2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 91.44 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06cfa6fb-e6e7-433a-ab07-bb9b584b9065")
+	)
+	(junction
+		(at 43.18 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "410e3929-1d8c-40e4-b962-61948f0309b4")
+	)
+	(junction
+		(at 101.6 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50110117-f245-4dcd-aa5c-ed45f016b396")
+	)
+	(junction
+		(at 43.18 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fede5799-7b26-4ef3-9b83-e91e3bcc621f")
+	)
+	(wire
+		(pts
+			(xy 334.01 77.47) (xy 334.01 39.37)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "0190aa05-2cfc-45d3-8b55-77023db41818")
+	)
+	(wire
+		(pts
+			(xy 353.06 110.49) (xy 353.06 116.84)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "07850e1a-cb86-4861-a5e8-2bb4739e870b")
+	)
+	(wire
+		(pts
+			(xy 123.19 81.28) (xy 123.19 69.85)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "0c8cd29d-2bb7-4322-b22d-4c0078329ab5")
+	)
+	(wire
+		(pts
+			(xy 180.34 109.22) (xy 180.34 105.41)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "11adf0bb-a28a-4004-9528-bd921d96d8c6")
+	)
+	(wire
+		(pts
+			(xy 326.39 90.17) (xy 347.98 90.17)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "146e7ff0-882a-416b-beb9-a5505f28d191")
+	)
+	(wire
+		(pts
+			(xy 369.57 69.85) (xy 369.57 31.75)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "148911b0-5017-4bb9-bad9-dbdb5c493183")
+	)
+	(wire
+		(pts
+			(xy 152.4 113.03) (xy 152.4 129.54)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "16672d1b-cbc5-4bd9-a47c-3f133c5410eb")
+	)
+	(wire
+		(pts
+			(xy 218.44 165.1) (xy 264.16 165.1)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "1e42d3d6-2e4a-4d8c-a77b-a58b082c87f7")
+	)
+	(wire
+		(pts
+			(xy 326.39 123.19) (xy 336.55 123.19)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "22a35d1d-f7f6-468f-8866-5eb016cb1fa9")
+	)
+	(wire
+		(pts
+			(xy 43.18 96.52) (xy 78.74 96.52)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "2543dbde-8b89-4fc5-bc8f-adc8750f0bbf")
+	)
+	(wire
+		(pts
+			(xy 264.16 143.51) (xy 264.16 165.1)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "26d20ac3-e55d-47db-943c-950891151aca")
+	)
+	(wire
+		(pts
+			(xy 43.18 111.76) (xy 78.74 111.76)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "284f6397-45a3-44fe-8867-c15c35c6dcaa")
+	)
+	(wire
+		(pts
+			(xy 369.57 90.17) (xy 412.75 90.17)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "289e0b03-4bac-428f-b17c-56f57b15cad9")
+	)
+	(wire
+		(pts
+			(xy 450.85 120.65) (xy 450.85 90.17)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "2bdbc6e2-3798-4865-9462-3a28768f2ba1")
+	)
+	(wire
+		(pts
+			(xy 280.67 100.33) (xy 218.44 100.33)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "2dbb9718-df36-46d2-829b-d2043590d0f0")
+	)
+	(wire
+		(pts
+			(xy 431.8 165.1) (xy 508 165.1)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "376a7c72-606a-46f8-92fc-1a83b4235771")
+	)
+	(wire
+		(pts
+			(xy 336.55 152.4) (xy 336.55 123.19)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "38654dc2-f4e0-4de9-be99-789331980aed")
+	)
+	(wire
+		(pts
+			(xy 417.83 128.27) (xy 431.8 128.27)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "3d6ae519-cbca-433d-a50f-cbb858cc8437")
+	)
+	(wire
+		(pts
+			(xy 264.16 128.27) (xy 264.16 110.49)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "4155b854-4b01-47b8-ab9e-be933e1695d9")
+	)
+	(wire
+		(pts
+			(xy 43.18 96.52) (xy 43.18 69.85)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "43408f20-3ee7-4999-a7b9-5eaf02e802af")
+	)
+	(wire
+		(pts
+			(xy 341.63 85.09) (xy 341.63 60.96)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "450a7fc1-57f5-4247-b29a-e7d99f430228")
+	)
+	(wire
+		(pts
+			(xy 123.19 123.19) (xy 123.19 139.7)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "469b78aa-615d-449b-b820-03f9ac187b6d")
+	)
+	(wire
+		(pts
+			(xy 91.44 139.7) (xy 43.18 139.7)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "47e96874-b759-48d0-9b8d-a175318abe9b")
+	)
+	(wire
+		(pts
+			(xy 241.3 128.27) (xy 241.3 105.41)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "4814e8cc-d32d-44f1-aca4-06999f582769")
+	)
+	(wire
+		(pts
+			(xy 140.97 74.93) (xy 140.97 102.87)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "4888107a-7f5b-4cb8-9ca5-e2a25e6ad09a")
+	)
+	(wire
+		(pts
+			(xy 280.67 90.17) (xy 203.2 90.17)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "4d4688db-ac1b-4f23-8c8f-32a60e6103c4")
+	)
+	(wire
+		(pts
+			(xy 383.54 80.01) (xy 383.54 90.17)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "4f29eb36-e4cb-463e-baf1-89ba588cdf37")
+	)
+	(wire
+		(pts
+			(xy 427.99 90.17) (xy 527.05 90.17)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "542b4ff1-8dd1-4651-8796-6b10d95f8ba6")
+	)
+	(wire
+		(pts
+			(xy 387.35 152.4) (xy 387.35 120.65)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "57c295b2-1ebb-4168-ac97-1137490b2e9a")
+	)
+	(wire
+		(pts
+			(xy 397.51 100.33) (xy 397.51 90.17)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "5ba15e51-02e5-439c-b435-8fc38fbc28eb")
+	)
+	(wire
+		(pts
+			(xy 361.95 77.47) (xy 347.98 77.47)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "5bde6f09-5acd-4aba-8b2d-ae7839b4c0db")
+	)
+	(wire
+		(pts
+			(xy 387.35 120.65) (xy 397.51 120.65)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "5f21db69-b4a2-4245-8359-0b7dd4830259")
+	)
+	(wire
+		(pts
+			(xy 349.25 115.57) (xy 349.25 125.73)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "63b35244-5f3f-4969-90a6-57509c705cc5")
+	)
+	(wire
+		(pts
+			(xy 180.34 85.09) (xy 180.34 90.17)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "6631293a-e211-4273-a3ce-f99ad52d5cea")
+	)
+	(wire
+		(pts
+			(xy 326.39 85.09) (xy 341.63 85.09)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "66fabf34-20d3-4249-911d-3106662fef48")
+	)
+	(wire
+		(pts
+			(xy 326.39 110.49) (xy 353.06 110.49)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "6a4c8bc6-0a9c-4266-96a6-d6d6f92a83b6")
+	)
+	(wire
+		(pts
+			(xy 397.51 115.57) (xy 397.51 124.46)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "6eae464e-4efc-4546-8b00-8d38bb2de136")
+	)
+	(wire
+		(pts
+			(xy 43.18 111.76) (xy 43.18 139.7)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "702eac0b-1d05-451f-87df-fd5e044bb81a")
+	)
+	(wire
+		(pts
+			(xy 123.19 107.95) (xy 123.19 96.52)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "711288d6-73f8-41aa-8860-b744112392a1")
+	)
+	(wire
+		(pts
+			(xy 152.4 129.54) (xy 203.2 129.54)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "757d994a-b5fa-4e9a-99cf-10e707d2c128")
+	)
+	(wire
+		(pts
+			(xy 397.51 139.7) (xy 397.51 147.32)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "773b0092-320f-43bb-a639-397d1039a70b")
+	)
+	(wire
+		(pts
+			(xy 203.2 90.17) (xy 203.2 129.54)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "7e75c07d-14ab-4d40-bb21-c248d5c4a8f5")
+	)
+	(wire
+		(pts
+			(xy 184.15 129.54) (xy 184.15 175.26)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "805c78c2-9607-4d3d-b1bc-cea0dc28c3ff")
+	)
+	(wire
+		(pts
+			(xy 347.98 90.17) (xy 347.98 77.47)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "857489a6-a95d-42f8-b079-e56edc84bb07")
+	)
+	(wire
+		(pts
+			(xy 326.39 115.57) (xy 349.25 115.57)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "899dcad9-8e26-42c8-9d33-f27d1a779317")
+	)
+	(wire
+		(pts
+			(xy 101.6 69.85) (xy 101.6 96.52)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "8b0d073f-2a14-4363-b0cd-ebf17f68dd03")
+	)
+	(wire
+		(pts
+			(xy 417.83 175.26) (xy 417.83 128.27)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "8b141630-37b5-4fb3-98bd-71f751eeb9f4")
+	)
+	(wire
+		(pts
+			(xy 431.8 149.86) (xy 431.8 165.1)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "8c734966-b025-4a2f-b2b6-76909995d7bb")
+	)
+	(wire
+		(pts
+			(xy 280.67 115.57) (xy 280.67 129.54)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "8e36f5a0-0dca-4689-9e50-969ad457525e")
+	)
+	(wire
+		(pts
+			(xy 21.59 97.79) (xy 21.59 69.85)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "90f2f2da-a81e-499c-90aa-248444c7b3bc")
+	)
+	(wire
+		(pts
+			(xy 218.44 142.24) (xy 218.44 165.1)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "97c39305-3a52-457b-87de-d9d0a195edfb")
+	)
+	(wire
+		(pts
+			(xy 369.57 116.84) (xy 353.06 116.84)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "9a8b8bbe-ed55-4400-bab3-f0d821b17cc7")
+	)
+	(wire
+		(pts
+			(xy 369.57 95.25) (xy 369.57 85.09)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "9b8ce23e-793e-4635-88f2-a344e3aba47d")
+	)
+	(wire
+		(pts
+			(xy 450.85 120.65) (xy 486.41 120.65)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "9ccce3d1-5d3f-4fa4-a5a2-e55f4ddf1638")
+	)
+	(wire
+		(pts
+			(xy 241.3 105.41) (xy 280.67 105.41)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "a3413726-3c3e-48b1-8bc4-783917f433c8")
+	)
+	(wire
+		(pts
+			(xy 140.97 102.87) (xy 123.19 102.87)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "a5339632-8b6f-49dd-abb9-e152583174b4")
+	)
+	(wire
+		(pts
+			(xy 184.15 175.26) (xy 417.83 175.26)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "a5d2584d-c882-4e60-8276-642370e813e9")
+	)
+	(wire
+		(pts
+			(xy 450.85 135.89) (xy 486.41 135.89)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "a83d3c30-87b9-41f8-b381-5dbb37134847")
+	)
+	(wire
+		(pts
+			(xy 508 146.05) (xy 508 165.1)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "ab74cf7b-5882-4cbe-8364-458f7181242f")
+	)
+	(wire
+		(pts
+			(xy 383.54 58.42) (xy 383.54 64.77)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "b164531f-743b-4cd4-a6d5-20bcc359fd09")
+	)
+	(wire
+		(pts
+			(xy 527.05 118.11) (xy 527.05 90.17)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "b282073e-f9a1-466d-8719-47543560fc20")
+	)
+	(wire
+		(pts
+			(xy 218.44 127) (xy 218.44 100.33)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "b5fe2ab1-c72c-4411-b0f1-17b7afb40048")
+	)
+	(wire
+		(pts
+			(xy 180.34 124.46) (xy 180.34 129.54)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "b6df1986-2d81-4a4b-aa90-0048c0414655")
+	)
+	(wire
+		(pts
+			(xy 383.54 39.37) (xy 383.54 43.18)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "b92dda07-64ba-4834-9a8b-38dda0d81d9f")
+	)
+	(wire
+		(pts
+			(xy 326.39 39.37) (xy 408.94 39.37)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "bb17af90-4596-40e8-8b18-fc53bb0651b9")
+	)
+	(wire
+		(pts
+			(xy 369.57 110.49) (xy 369.57 119.38)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "c2c6062a-20ea-487c-a55e-85575334dfb8")
+	)
+	(wire
+		(pts
+			(xy 273.05 69.85) (xy 273.05 31.75)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "c4e50ec2-2c84-40cc-a970-35f90cb34628")
+	)
+	(wire
+		(pts
+			(xy 21.59 69.85) (xy 280.67 69.85)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "cad1d141-026c-47c6-ab0f-ba920ab3463e")
+	)
+	(wire
+		(pts
+			(xy 101.6 111.76) (xy 101.6 139.7)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "cd387cd7-d1b0-437c-888f-5f304a40ce6e")
+	)
+	(wire
+		(pts
+			(xy 152.4 85.09) (xy 280.67 85.09)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "cd642ca8-d7fb-462a-ae0c-fd9afdf8c9fe")
+	)
+	(wire
+		(pts
+			(xy 431.8 106.68) (xy 431.8 90.17)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "d2022ab9-30d1-4780-b5fc-c1961365aa1c")
+	)
+	(wire
+		(pts
+			(xy 273.05 31.75) (xy 369.57 31.75)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "d32d76ef-a40c-4b9b-8b5b-6cac2b258664")
+	)
+	(wire
+		(pts
+			(xy 527.05 146.05) (xy 527.05 133.35)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "d6faff88-af50-4cda-b324-8ff890874199")
+	)
+	(wire
+		(pts
+			(xy 341.63 60.96) (xy 383.54 60.96)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "dacb4609-a852-4e74-bab5-bfefb5a1e105")
+	)
+	(wire
+		(pts
+			(xy 326.39 102.87) (xy 361.95 102.87)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "db5ba10f-d36e-43e6-a5cd-11c633460f70")
+	)
+	(wire
+		(pts
+			(xy 101.6 139.7) (xy 91.44 139.7)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "de21500c-232b-4892-b1f3-985bf1496e7e")
+	)
+	(wire
+		(pts
+			(xy 123.19 139.7) (xy 101.6 139.7)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "e343c269-99ba-4949-b2cf-3e452cb5bb8a")
+	)
+	(wire
+		(pts
+			(xy 408.94 49.53) (xy 408.94 39.37)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "e58c3c40-0ff2-4106-bb30-049f597bf85a")
+	)
+	(wire
+		(pts
+			(xy 280.67 74.93) (xy 140.97 74.93)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "e92eab45-aac1-4fe6-a5de-1097f6b0151e")
+	)
+	(wire
+		(pts
+			(xy 326.39 95.25) (xy 369.57 95.25)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "e99255b0-ff34-4a9b-a117-d76f21722792")
+	)
+	(wire
+		(pts
+			(xy 508 146.05) (xy 527.05 146.05)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "ef5e3647-a98f-4de3-a00b-f734f80462a7")
+	)
+	(wire
+		(pts
+			(xy 326.39 69.85) (xy 326.39 39.37)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "f31d9395-11da-4f9a-b131-69b6cc9d0456")
+	)
+	(wire
+		(pts
+			(xy 336.55 152.4) (xy 387.35 152.4)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "f35a8350-145a-4358-af81-b8b329021c6b")
+	)
+	(wire
+		(pts
+			(xy 369.57 134.62) (xy 369.57 138.43)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "f697e295-f5cb-4d84-a628-6846a0958639")
+	)
+	(wire
+		(pts
+			(xy 450.85 135.89) (xy 450.85 165.1)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "f745967e-9066-4bf3-81c7-43084703eb58")
+	)
+	(wire
+		(pts
+			(xy 326.39 77.47) (xy 334.01 77.47)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "fa7f47f1-cda8-4d75-9723-b39b9d86c8d2")
+	)
+	(wire
+		(pts
+			(xy 152.4 97.79) (xy 152.4 85.09)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "fc172e7d-1ba5-41b4-99cc-0b227a09accd")
+	)
+	(wire
+		(pts
+			(xy 241.3 143.51) (xy 241.3 165.1)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "fc1d2432-7474-4c40-876f-ec0736f2e571")
+	)
+	(wire
+		(pts
+			(xy 431.8 121.92) (xy 431.8 134.62)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "fea8376f-ad4a-423e-954d-d31c0619e859")
+	)
+	(wire
+		(pts
+			(xy 280.67 110.49) (xy 264.16 110.49)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "febb4269-8c0d-41ec-bb46-8dda89b48edc")
+	)
+	(label "VIN"
+		(at 21.59 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "42eb985d-2fc1-43e2-86e0-297035b26fac")
+	)
+	(global_label "PGND"
+		(shape bidirectional)
+		(at 280.67 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "7863f6d1-a304-46c6-8ac6-2062c263a165")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 288.0593 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "robot-eagle-import:AcceleratedDesigns_Lib_WB_GNDWB_GND")
+		(at 251.46 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18097845-75df-4cab-acf6-6569a66644aa")
+		(property "Reference" "GND4"
+			(at 251.46 162.052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "WB_GND"
+			(at 251.46 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "robot:WB_GND"
+			(at 251.46 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b56b5b26-9e49-47bb-9c8c-7686527f63b4")
+		)
+		(instances
+			(project ""
+				(path "/daf99c2a-d0b0-4ae1-945e-12e9bcd50ee1"
+					(reference "GND4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "robot-eagle-import:AcceleratedDesigns_Lib_WB_GNDWB_GND")
+		(at 349.25 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ff2cd31-7fea-4505-b304-e967bd965652")
+		(property "Reference" "GND7"
+			(at 349.25 122.682 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "WB_GND"
+			(at 349.25 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "robot:WB_GND"
+			(at 349.25 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 349.25 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 349.25 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d546558d-6805-4500-a1d6-f7bfc75e2122")
+		)
+		(instances
+			(project ""
+				(path "/daf99c2a-d0b0-4ae1-945e-12e9bcd50ee1"
+					(reference "GND7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "robot-eagle-import:AcceleratedDesigns_Lib_BAT54WSTRBAT54WSTR")
+		(at 383.54 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27c8a383-2497-488b-b578-315e475f96de")
+		(property "Reference" "D1"
+			(at 386.08 46.99 90)
+			(effects
+				(font
+					(size 2 1.7)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "1V"
+			(at 386.08 51.562 90)
+			(effects
+				(font
+					(size 2 1.7)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "robot:SOD-323"
+			(at 383.54 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 383.54 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 383.54 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e3a8d79-0d08-415a-b7e4-d36cc7483d41")
+		)
+		(pin "2"
+			(uuid "cefcc544-d883-45e5-8125-ccefe71b7900")
+		)
+		(instances
+			(project ""
+				(path "/daf99c2a-d0b0-4ae1-945e-12e9bcd50ee1"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "robot-eagle-import:C0805C100M4GACTUC0805C100M4GACTU")
+		(at 152.4 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b78c48b-33ed-4f1e-8934-8bd3c7d80456")
+		(property "Reference" "1"
+			(at 156.21 103.505 90)
+			(effects
+				(font
+					(size 2 1.7)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 156.21 107.315 90)
+			(effects
+				(font
+					(size 2 1.7)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "robot:0805"
+			(at 152.4 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b45c7b55-b3f8-4ca0-89ca-8be11f07c2e3")
+		)
+		(pin "1"
+			(uuid "244fbb3c-ee5f-4d0e-a230-87fededa8bc5")
+		)
+		(instances
+			(project ""
+				(path "/daf99c2a-d0b0-4ae1-945e-12e9bcd50ee1"
+					(reference "1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "robot-eagle-import:AcceleratedDesigns_Lib_WB_GNDWB_GND")
+		(at 488.95 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3013d575-a40b-4571-ad72-c62144e5d8ff")
+		(property "Reference" "GND1"
+			(at 488.95 162.052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "WB_GND"
+			(at 488.95 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "robot:WB_GND"
+			(at 488.95 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 488.95 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 488.95 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ebd9d738-4ed4-4423-b9fb-bb845dd8875c")
+		)
+		(instances
+			(project ""
+				(path "/daf99c2a-d0b0-4ae1-945e-12e9bcd50ee1"
+					(reference "GND1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "robot-eagle-import:C2012C0G1H153J085AAC2012C0G1H153J085AA")
+		(at 264.16 135.89 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "424cc655-eaf2-45b4-878a-f0c9a78df7da")
+		(property "Reference" "1"
+			(at 267.97 133.985 90)
+			(effects
+				(font
+					(size 2 1.7)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 267.97 137.795 90)
+			(effects
+				(font
+					(size 2 1.7)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "robot:0805"
+			(at 264.16 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 264.16 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ff3e949a-c5af-49b6-8350-17d4c7912fec")
+		)
+		(pin "1"
+			(uuid "6619a7dc-9667-4424-9487-3878f2e6f549")
+		)
+		(instances
+			(project ""
+				(path "/daf99c2a-d0b0-4ae1-945e-12e9bcd50ee1"
+					(reference "1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "robot-eagle-import:AcceleratedDesigns_Lib_CSD17571Q2CSD17571Q2")
+		(at 365.76 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "44ffcbe3-9d77-4b72-8e4a-d9e885c5cd91")
+		(property "Reference" "M2"
+			(at 365.76 95.25 0)
+			(effects
+				(font
+					(size 2 1.7)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "30V"
+			(at 365.76 110.49 0)
+			(effects
+				(font
+					(size 2 1.7)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" "robot:DQK0006C"
+			(at 365.76 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 365.76 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 365.76 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f3130ef5-1c87-4c73-85bf-df52b7bba4f0")
+		)
+		(pin "1"
+			(uuid "46f84a57-9d6a-4b5b-8c96-23c62dd6f44a")
+		)
+		(pin "2"
+			(uuid "aaa29170-59e1-4561-a5ad-22a1d3a12d87")
+		)
+		(pin "5"
+			(uuid "f39aa114-5a47-4eca-96fc-db96c8b39ca6")
+		)
+		(pin "6"
+			(uuid "307a44ac-00d0-472f-ab9c-048d3f8a802e")
+		)
+		(pin "4"
+			(uuid "497cda27-02d8-4fd0-a649-83cc3bd90a5b")
+		)
+		(instances
+			(project ""
+				(path "/daf99c2a-d0b0-4ae1-945e-12e9bcd50ee1"
+					(reference "M2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "robot-eagle-import:AcceleratedDesigns_Lib_WB_GNDWB_GND")
+		(at 280.67 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "474d2fd8-211c-4bde-8b3e-d4d9357302b8")
+		(property "Reference" "GND8"
+			(at 280.67 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "WB_GND"
+			(at 280.67 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "robot:WB_GND"
+			(at 280.67 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 280.67 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 280.67 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "daddb574-d098-45b7-9ce4-1fd11a5e2fd7")
+		)
+		(instances
+			(project ""
+				(path "/daf99c2a-d0b0-4ae1-945e-12e9bcd50ee1"
+					(reference "GND8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "robot-eagle-import:CL21C222JBFNNNECL21C222JBFNNNE")
+		(at 180.34 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d812e23-1e76-4595-8942-efec09e2de2c")
+		(property "Reference" "1"
+			(at 184.15 95.885 90)
+			(effects
+				(font
+					(size 2 1.7)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 184.15 99.695 90)
+			(effects
+				(font
+					(size 2 1.7)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "robot:0805"
+			(at 180.34 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fed676cb-f5a5-4e99-a04a-b28d235b3402")
+		)
+		(pin "1"
+			(uuid "9ff1b216-4b40-4663-9ed5-3ef40e52e4e1")
+		)
+		(instances
+			(project ""
+				(path "/daf99c2a-d0b0-4ae1-945e-12e9bcd50ee1"
+					(reference "1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "robot-eagle-import:CL21C222JBFNNNECL21C222JBFNNNE")
+		(at 123.19 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b444166-7a80-4328-8595-176270d99a33")
+		(property "Reference" "1"
+			(at 127 86.995 90)
+			(effects
+				(font
+					(size 2 1.7)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 127 90.805 90)
+			(effects
+				(font
+					(size 2 1.7)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "robot:0805"
+			(at 123.19 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 123.19 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6fb09dd2-cdd5-47d4-842e-6c41f7a2dab3")
+		)
+		(pin "1"
+			(uuid "f755c486-98ab-4e00-a048-9f89d9517931")
+		)
+		(instances
+			(project ""
+				(path "/daf99c2a-d0b0-4ae1-945e-12e9bcd50ee1"
+					(reference "1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "robot-eagle-import:TMK212BJ474KD-TTMK212BJ474KD-T")
+		(at 241.3 135.89 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74af256d-9199-40d0-b4c4-18538c84e608")
+		(property "Reference" "1"
+			(at 245.11 133.985 90)
+			(effects
+				(font
+					(size 2 1.7)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 245.11 137.795 90)
+			(effects
+				(font
+					(size 2 1.7)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "robot:0805"
+			(at 241.3 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "086c8099-443a-44bb-b515-0e5918605023")
+		)
+		(pin "2"
+			(uuid "4a4c5665-6acd-48aa-a508-24eba07d2583")
+		)
+		(instances
+			(project ""
+				(path "/daf99c2a-d0b0-4ae1-945e-12e9bcd50ee1"
+					(reference "1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "robot-eagle-import:XAL6060-472MEBXAL6060-472MEB")
+		(at 420.37 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "76905e3a-1143-4981-9e1b-6afdf3f5442b")
+		(property "Reference" "L1"
+			(at 420.37 85.852 0)
+			(effects
+				(font
+					(size 2 1.7)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "4.7uH"
+			(at 420.37 95.25 0)
+			(effects
+				(font
+					(size 2 1.7)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" "robot:XAL6060"
+			(at 420.37 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 420.37 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 420.37 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8d4b9f0-cca8-44c8-b3f7-d8ced55df186")
+		)
+		(pin "2"
+			(uuid "0f122308-a392-4513-8e3f-ab894b72fee1")
+		)
+		(instances
+			(project ""
+				(path "/daf99c2a-d0b0-4ae1-945e-12e9bcd50ee1"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "robot-eagle-import:C0805C100M4GACTUC0805C100M4GACTU")
+		(at 101.6 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "786e676e-a513-4073-be65-4aaddf378321")
+		(property "Reference" "1"
+			(at 105.41 102.235 90)
+			(effects
+				(font
+					(size 2 1.7)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 105.41 106.045 90)
+			(effects
+				(font
+					(size 2 1.7)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "robot:0805"
+			(at 101.6 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3be559e-6a40-4ecd-bcee-58c0ae175164")
+		)
+		(pin "2"
+			(uuid "f080a567-c436-490b-a0b9-84b50cc5594d")
+		)
+		(instances
+			(project ""
+				(path "/daf99c2a-d0b0-4ae1-945e-12e9bcd50ee1"
+					(reference "1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "robot-eagle-import:AcceleratedDesigns_Lib_LM25117PMHX/NOPBLM25117PMHX/NOPB")
+		(at 303.53 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7f2d4163-dbc3-4d71-aabb-6c80a2f894bf")
+		(property "Reference" "U1"
+			(at 303.53 95.25 0)
+			(effects
+				(font
+					(size 2 1.7)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "LM25117PMHX/NOPB"
+			(at 303.53 99.06 0)
+			(effects
+				(font
+					(size 2 1.7)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" "robot:PWP0020A_N"
+			(at 303.53 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 303.53 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 303.53 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "a394bbc3-f30d-4e49-9df7-40362e94f45f")
+		)
+		(pin "9"
+			(uuid "2743aed9-e5c3-4a99-bffa-427f6d9fff19")
+		)
+		(pin "8"
+			(uuid "53647f7c-ee24-4883-b9ce-b4de7368269b")
+		)
+		(pin "10"
+			(uuid "172f6380-91dc-4b9d-9f64-909f26f18071")
+		)
+		(pin "5"
+			(uuid "535fe317-d29c-49d7-8fa1-97ca2424a5c7")
+		)
+		(pin "3"
+			(uuid "5f59b403-f010-44ab-95cf-1681a7444462")
+		)
+		(pin "4"
+			(uuid "fc96952a-482f-44d4-bcfa-a321359e4acc")
+		)
+		(pin "6"
+			(uuid "045bffce-6a75-481b-bff0-2755520e37ee")
+		)
+		(pin "14"
+			(uuid "751af3f1-51bd-4c93-bb6f-5ac3777546ff")
+		)
+		(pin "21"
+			(uuid "6b706188-6346-4aa2-b1ee-8b3475c94d33")
+		)
+		(pin "2"
+			(uuid "c42001c3-e8be-4653-8057-ca6ed5f8da11")
+		)
+		(pin "16"
+			(uuid "ce0bc57e-83e5-42a1-bfc0-217a951b1d66")
+		)
+		(pin "19"
+			(uuid "13127242-1609-4566-889c-6567c7462469")
+		)
+		(pin "18"
+			(uuid "11c9713c-0fdf-4e0b-bf47-b9081347b0d5")
+		)
+		(pin "17"
+			(uuid "3b1c98a2-eafb-4894-8e88-181d8e3fca95")
+		)
+		(pin "15"
+			(uuid "fbf289d8-7859-4fab-8030-e140f8f77a19")
+		)
+		(pin "12"
+			(uuid "43c3f9ea-9a79-4173-82c9-b415a81c2fd5")
+		)
+		(pin "13"
+			(uuid "b2bcd565-0b74-4bfc-9a85-2b8cd87d69cf")
+		)
+		(pin "11"
+			(uuid "51c12c0b-4919-4c5d-a5f6-e9c4fb39746c")
+		)
+		(pin "20"
+			(uuid "7ce6b2a5-f0cd-4066-a0b4-befa1b854b01")
+		)
+		(pin "1"
+			(uuid "bd165f60-aac9-446f-a43d-e0a62f0a4df8")
+		)
+		(instances
+			(project ""
+				(path "/daf99c2a-d0b0-4ae1-945e-12e9bcd50ee1"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "robot-eagle-import:CRCW040217K4FKEDCRCW040217K4FKED")
+		(at 123.19 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a4e5a10-3f12-4f50-8c1b-82c3c7bb92bd")
+		(property "Reference" "1"
+			(at 125.73 113.665 90)
+			(effects
+				(font
+					(size 2 1.7)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 125.73 117.475 90)
+			(effects
+				(font
+					(size 2 1.7)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "robot:0402"
+			(at 123.19 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 123.19 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "20b4eabf-f3f2-4492-a2f3-dcdcda780003")
+		)
+		(pin "1"
+			(uuid "ec52afc1-014e-4974-8afa-65d5c7c67979")
+		)
+		(instances
+			(project ""
+				(path "/daf99c2a-d0b0-4ae1-945e-12e9bcd50ee1"
+					(reference "1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "robot-eagle-import:MSASU32MSB7475MPNA01MSASU32MSB7475MPNA01")
+		(at 43.18 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "965b01be-db5e-4713-87cd-030e90648a8b")
+		(property "Reference" "1"
+			(at 46.99 102.235 90)
+			(effects
+				(font
+					(size 2 1.7)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 46.99 106.045 90)
+			(effects
+				(font
+					(size 2 1.7)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "robot:1210"
+			(at 43.18 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3e8518ce-7a74-4cf0-9eab-38de2830851a")
+		)
+		(pin "1"
+			(uuid "15b34e95-711b-4ace-ab47-b5993630a61b")
+		)
+		(instances
+			(project ""
+				(path "/daf99c2a-d0b0-4ae1-945e-12e9bcd50ee1"
+					(reference "1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "robot-eagle-import:AcceleratedDesigns_Lib_CSD17571Q2CSD17571Q2")
+		(at 365.76 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad24239b-8f96-476a-a44a-fecd2b9a5812")
+		(property "Reference" "M1"
+			(at 365.76 69.85 0)
+			(effects
+				(font
+					(size 2 1.7)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "30V"
+			(at 365.76 85.09 0)
+			(effects
+				(font
+					(size 2 1.7)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" "robot:DQK0006C"
+			(at 365.76 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 365.76 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 365.76 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "790e005b-fcf8-40ba-9a8d-b1b7f9b82fa9")
+		)
+		(pin "1"
+			(uuid "18b97489-1b2e-4a98-88eb-df2ffc78ede6")
+		)
+		(pin "2"
+			(uuid "cbbae18e-bb1a-4e86-ba13-db1e1ac840dd")
+		)
+		(pin "5"
+			(uuid "14714a88-1669-4b84-8f0a-79c84f7febb8")
+		)
+		(pin "6"
+			(uuid "8845600b-639c-46d9-a225-c0b86d8fee0e")
+		)
+		(pin "4"
+			(uuid "200ff6eb-47ea-4d93-9d55-446b69318577")
+		)
+		(instances
+			(project ""
+				(path "/daf99c2a-d0b0-4ae1-945e-12e9bcd50ee1"
+					(reference "M1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "robot-eagle-import:C0805C104M5RACTUC0805C104M5RACTU")
+		(at 78.74 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7aba190-07fe-4046-9c9d-73ea0eabd8a2")
+		(property "Reference" "1"
+			(at 82.55 102.235 90)
+			(effects
+				(font
+					(size 2 1.7)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 82.55 106.045 90)
+			(effects
+				(font
+					(size 2 1.7)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "robot:0805"
+			(at 78.74 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "31821f41-019e-4995-99f7-dea5702844d6")
+		)
+		(pin "1"
+			(uuid "c995cfa9-b12f-4e8c-ab2e-515dc7f07097")
+		)
+		(instances
+			(project ""
+				(path "/daf99c2a-d0b0-4ae1-945e-12e9bcd50ee1"
+					(reference "1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "robot-eagle-import:AcceleratedDesigns_Lib_WB_GNDWB_GND")
+		(at 369.57 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bbe0aa1c-3d2d-491e-b15d-581981153341")
+		(property "Reference" "GND5"
+			(at 369.57 135.382 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "WB_GND"
+			(at 369.57 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "robot:WB_GND"
+			(at 369.57 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 369.57 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 369.57 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f954ff56-33a9-4310-8f02-aadb5cc2d977")
+		)
+		(instances
+			(project ""
+				(path "/daf99c2a-d0b0-4ae1-945e-12e9bcd50ee1"
+					(reference "GND5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "robot-eagle-import:AcceleratedDesigns_Lib_WB_GNDWB_GND")
+		(at 91.44 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2f5d206-deea-438d-b77e-646d9baec59c")
+		(property "Reference" "GND3"
+			(at 91.44 136.652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "WB_GND"
+			(at 91.44 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "robot:WB_GND"
+			(at 91.44 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd84c680-1e50-4085-8329-f878ab517b83")
+		)
+		(instances
+			(project ""
+				(path "/daf99c2a-d0b0-4ae1-945e-12e9bcd50ee1"
+					(reference "GND3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "robot-eagle-import:CRCW040217K4FKEDCRCW040217K4FKED")
+		(at 180.34 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d08cd050-a409-43ca-9130-9f7140a89cb7")
+		(property "Reference" "1"
+			(at 182.88 114.935 90)
+			(effects
+				(font
+					(size 2 1.7)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 182.88 118.745 90)
+			(effects
+				(font
+					(size 2 1.7)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "robot:0402"
+			(at 180.34 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43f6c59e-064d-4598-a0bc-954c1fc30b60")
+		)
+		(pin "2"
+			(uuid "1e7315c7-7833-45b3-aff1-84ea854c6999")
+		)
+		(instances
+			(project ""
+				(path "/daf99c2a-d0b0-4ae1-945e-12e9bcd50ee1"
+					(reference "1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "robot-eagle-import:AcceleratedDesigns_Lib_WB_GNDWB_GND")
+		(at 408.94 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d933ed0f-9d41-4a88-9a26-67c4b3699924")
+		(property "Reference" "GND2"
+			(at 408.94 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "WB_GND"
+			(at 408.94 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "robot:WB_GND"
+			(at 408.94 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 408.94 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 408.94 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2c0cd59-8293-43ee-b554-eeb1ff08966c")
+		)
+		(instances
+			(project ""
+				(path "/daf99c2a-d0b0-4ae1-945e-12e9bcd50ee1"
+					(reference "GND2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "robot-eagle-import:AcceleratedDesigns_Lib_WB_GNDWB_GND")
+		(at 397.51 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f372ddcc-2f26-4e9b-b0cd-814a824a9adf")
+		(property "Reference" "GND6"
+			(at 397.51 144.272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "WB_GND"
+			(at 397.51 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "robot:WB_GND"
+			(at 397.51 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 397.51 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 397.51 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "120a594c-2430-4768-80c0-e021db324fe5")
+		)
+		(instances
+			(project ""
+				(path "/daf99c2a-d0b0-4ae1-945e-12e9bcd50ee1"
+					(reference "GND6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "robot-eagle-import:RC0201FR-0712K1LRC0201FR-0712K1L")
+		(at 218.44 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff62c231-4449-4826-acf0-a4db266683a4")
+		(property "Reference" "1"
+			(at 220.98 132.715 90)
+			(effects
+				(font
+					(size 2 1.7)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 220.98 136.525 90)
+			(effects
+				(font
+					(size 2 1.7)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "robot:0201"
+			(at 218.44 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c16964c-6cd3-4a0f-ae69-aecfac30e423")
+		)
+		(pin "2"
+			(uuid "b0ba627b-2031-4b83-9a0e-d483c597a959")
+		)
+		(instances
+			(project ""
+				(path "/daf99c2a-d0b0-4ae1-945e-12e9bcd50ee1"
+					(reference "1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

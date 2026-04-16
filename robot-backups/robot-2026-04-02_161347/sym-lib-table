@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "robot-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/robot-eagle-import.kicad_sym")(options "")(descr ""))
+)

@@ -1,0 +1,24 @@
+﻿Part,Manufacturer,Part Number,Quantity,Price ($),Footprint (mm²),Description
+Rramp,Vishay-Dale,CRCW020144K2FNED,1,0.01,2.08,Resistance: 44.2 kΩ  Tolerance: 1.0%  Power: 50 mW  
+U1,Texas Instruments,LM25117PMHX/NOPB,1,1.893,71.4,
+M1,Texas Instruments,CSD17571Q2,1,0.08,9,VdsMax: 30 V  IdsMax: 22 Amps  
+Rcomp,Vishay-Dale,CRCW040217K4FKED,1,0.01,3,Resistance: 17.4 kΩ  Tolerance: 1.0%  Power: 63 mW  
+Cinx,Kemet,C0805C104M5RACTU,1,0.01,6.75,Cap: 100 nF  Total Derated Cap: 100 nF  VDC: 50 V  ESR: 35.47 mΩ  Package: 0805  
+Ruv1,Vishay-Dale,CRCW04029K31FKED,1,0.01,3,Resistance: 9.31 kΩ  Tolerance: 1.0%  Power: 63 mW  
+Ccomp2,Kemet,C0805C100M4GACTU,1,0.01,6.75,Cap: 10 pF  Total Derated Cap: 10 pF  VDC: 16 V  ESR: 0 Ω  Package: 0805  
+L1,Coilcraft,XAL6060-472MEB,1,0.82,71.56,L: 4.7 µH  DCR: 13.1 mΩ  IDC: 10.5 A  
+Rsense,Stackpole Electronics Inc,CSR1206FK12L0,1,0.11,10.92,Resistance: 12 mΩ  Tolerance: 1.0%  Power: 500 mW  
+D1,SMC Diode Solutions,BAT54WSTR,1,0.02,8.7,Type: Schottky  VRRM: 30 V  Io: 200 mA  
+Rfb2,Yageo,RT0805BRD073K05L,1,0.05,6.75,Resistance: 3.05 kΩ  Tolerance: 0.1%  Power: 125 mW  
+Rt,Yageo,RC0201FR-0712K1L,1,0.01,2.08,Resistance: 12.1 kΩ  Tolerance: 1.0%  Power: 50 mW  
+Cboot,AVX,08053C104KAT2A,1,0.01,6.75,Cap: 100 nF  Total Derated Cap: 100 nF  VDC: 25 V  ESR: 280 mΩ  Package: 0805  
+M2,Texas Instruments,CSD17571Q2,1,0.08,9,VdsMax: 30 V  IdsMax: 22 Amps  
+Cres,Taiyo Yuden,TMK212BJ474KD-T,1,0.02,6.75,Cap: 470 nF  Total Derated Cap: 470 nF  VDC: 20 V  ESR: 1 mΩ  Package: 0805  
+Ruv2,Vishay-Dale,CRCW040254K9FKED,1,0.01,3,Resistance: 54.9 kΩ  Tolerance: 1.0%  Power: 63 mW  
+Cvcc,Taiyo Yuden,TMK212BJ474KD-T,1,0.02,6.75,Cap: 470 nF  Total Derated Cap: 470 nF  VDC: 20 V  ESR: 1 mΩ  Package: 0805  
+Rfb1,Vishay-Dale,CRCW0402976RFKED,1,0.01,3,Resistance: 976 Ω  Tolerance: 1.0%  Power: 63 mW  
+Cout,MuRata,GRM32EC80J107ME20L,3,0.17,14.7,Cap: 100 µF  Total Derated Cap: 190 µF  VDC: 6.3 V  ESR: 1 mΩ  Package: 1210  
+Css,TDK,C2012C0G1H153J085AA,1,0.06,6.75,Cap: 15 nF  Total Derated Cap: 15 nF  VDC: 50 V  ESR: 0 Ω  Package: 0805  
+Cramp,MuRata,GRM033R71E821KA01D,1,0.01,2.08,Cap: 820 pF  Total Derated Cap: 820 pF  VDC: 25 V  ESR: 1 mΩ  Package: 0201  
+Cin,Taiyo Yuden,MSASU32MSB7475MPNA01,3,0.14849,14.7,Cap: 4.7 µF  Total Derated Cap: 11 µF  VDC: 50 V  ESR: 6.46 mΩ  Package: 1210  
+Ccomp1,Samsung Electro-Mechanics,CL21C222JBFNNNE,1,0.02,6.75,Cap: 2.2 nF  Total Derated Cap: 2.2 nF  VDC: 50 V  ESR: 0 Ω  Package: 0805  
