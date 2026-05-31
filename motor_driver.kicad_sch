@@ -2491,7 +2491,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DRV8873:IC_DRV8873SPWPRQ1"
+		(property "Footprint" "DRV8873SPWPRQ1:IC_DRV8873SPWPRQ1"
 			(at 128.27 105.41 0)
 			(effects
 				(font

@@ -5165,7 +5165,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:Texas_PWP0020A"
+		(property "Footprint" "PWP0020A_N"
 			(at 151.13 97.79 0)
 			(effects
 				(font
